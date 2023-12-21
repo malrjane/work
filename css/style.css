@@ -1,0 +1,88 @@
+body {
+  color: #421801;
+}
+
+.header_logo {
+  padding: 15px 130px;
+}
+.header_logo_img {
+  max-width: 100%;
+
+}
+.content {  
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 10px;
+}
+.menu {
+    margin: 0 auto;
+  position: relative;
+}
+.article_header {
+  text-align: center;
+}
+
+.article_header::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 140px;
+  width: 114px;
+  height: 3px;
+  border-bottom: 3px solid #421801;
+}
+
+.menu_article {
+  text-align: center;
+  display: block;
+  height: 100px;
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drinks {
+}
+.menu_article_header {
+}
+.menu_drinks_food {
+}
+.menu_drinks_food_items {
+}
+.menu_drinks_food_item {
+}
+.menu_drinks_food_item_header {
+}
+.menu_items_list {
+}
+.menu_item {
+}
+.menu_item_header {
+}
+.menu_item_price {
+}
+.food {
+}
+.footer {
+  position: relative;
+  margin: 0 auto;
+}
+.map {
+}
+.info {
+}
+.open_hours {
+}
+.phone {
+}
+.social {
+}
+.inst {
+}
+.facebook {
+}
+
+.hidden {
+  display: none;
+}
+
