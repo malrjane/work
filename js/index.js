@@ -40,7 +40,6 @@ $(document).ready(function() {
     swipe: true, 
     touchThreshold: 2,
     touchMove: true,
-    waitForAnimate: false,
 
   });
 });
