@@ -44,6 +44,7 @@ background-color: 90a88d;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .click {
@@ -57,6 +58,7 @@ background-color: 90a88d;
 .menu_drinks_food {
 }
 .menu_drinks_food_items {
+  transition: 1000ms;
 }
 .menu_drinks_food_item {
 }
@@ -96,7 +98,17 @@ background-color: 90a88d;
 }
 
 .hidden {
-  display: none;
+  display: none; 
+}
+
+
+.active {
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateY(-1%);}
+  100% {transform: translateY(0);}
 }
 
 .wrapperMy {
@@ -105,6 +117,7 @@ background-color: 90a88d;
   top: 0;
   background-color: white;
   border-top: 10px solid white;
+  z-index: 5;
 }
 
 .menu_item_subtitle {

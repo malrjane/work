@@ -5,8 +5,17 @@ let arr = document.querySelectorAll('.menu_drinks_food');
 Array.from(buttons).forEach((btn) => {
   btn.addEventListener('click', (event) => {
     event.preventDefault();
-    btn.nextElementSibling.classList.toggle('hidden');
+    if(btn.nextElementSibling.classList.contains('hidden')) {
+      btn.nextElementSibling.classList.remove('hidden');
+      btn.nextElementSibling.classList.add('active');
+    } else {
+        btn.nextElementSibling.classList.remove('active');
+        btn.nextElementSibling.classList.add('hidden');
+
+    }
+    
     btn.firstElementChild.classList.toggle('click');
+
   })
 });
 
@@ -29,6 +38,9 @@ $(document).ready(function() {
     pauseOnDotsHover: true,
     draggable: true,
     swipe: true, 
-    touchThreshold: 10,    //
+    touchThreshold: 2,
+    touchMove: true,
+    waitForAnimate: false,
+
   });
 });
