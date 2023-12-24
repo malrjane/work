@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyChocoLaVita</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="js/index.js">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css/slick.css">
 </head>
 
 <body>
@@ -17,345 +17,413 @@
     </div>
   </header>
   <main class="content">
-    <h2 class="article_header">Our menu^^</h2>
+    <h2 class="article_header">Our menu</h2>
 
 
-    <div class="menu_article drinks">
-      <script>
-        document.querySelector('.menu_article').style.setProperty('margin-bottom', '10px');
-      </script>
-      <!--блок с напитками -->
-      <h3 class="menu_article_header">Drinks</h3>
-      <div class="menu_drinks_food hidden">
-        <ul class="menu_drinks_food_items">
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Coffee</h3> <!--блок с coffee -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Espresso</h4>
-                  <span class="menu_item_price">7 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Americano</h4>
-                  <span class="menu_item_price">8 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Latte</h4>
-                  <span class="menu_item_price">9.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Cappuchino</h4>
-                  <span class="menu_item_price">9.5 / 12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Flat-white</h4>
-                  <span class="menu_item_price">9.5 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Tea</h3> <!--блок с tea -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Black tea</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Green tea</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Ginger tea</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Berries tea</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Christmas tea</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Desserts</h3> <!--блок с desserts -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Classical cocoa</h4>
-                  <span class="menu_item_price">14 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mint cocoa</h4>
-                  <span class="menu_item_price">14 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Hot chocolate</h4>
-                  <span class="menu_item_price">13 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Raf vanila</h4>
-                  <span class="menu_item_price">9.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Spicy orange raf</h4>
-                  <span class="menu_item_price">14 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Spicy pumpkin latte</h4>
-                  <span class="menu_item_price">14 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mokko</h4>
-                  <span class="menu_item_price">14 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Cold drinks</h3> <!--блок с cold drinks -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Iced americano</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Orange | Grapefruit bumble</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Iced latte (vanilla | chocolate)</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Glyasse</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Hommemade lemonade (lime-mint | cherry-pineapple)</h4>
-                  <span class="menu_item_price">7.5 GEL for 1 glass</span>
-                  <span class="menu_item_price">12 GEL for 1 liter</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Milkshake</h3> <!--блок с milkshake -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Milkshake vanilla</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Milkshake strawberry-banana</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Milkshake chocolate</h4>
-                  <span class="menu_item_price">12 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Smoothie</h3> <!--блок с smoothie -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Smoothie strawberry -banana</h4>
-                  <span class="menu_item_price">17.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Smoothie apple-oatmeal</h4>
-                  <span class="menu_item_price">17.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Smoothie with spinach</h4>
-                  <span class="menu_item_price">17.5 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Alcohol</h3> <!--блок с alcohol -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Irish coffee</h4>
-                  <span class="menu_item_price">15 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Hot caramel rum</h4>
-                  <span class="menu_item_price">16 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Mulled vine</h4>
-                  <span class="menu_item_price">10 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+    <div class="wrapperMy">
+      <div class="menu_article drinks">
+        <script>
+          document.querySelector('.menu_article').style.setProperty('margin-bottom', '10px');
+        </script>
+        <!--блок с напитками -->
+        <h3 class="header">Drinks</h3>
+      </div> <!--drinks btn-->
+    </div>
+    <div class="menu_drinks_food hidden">
+      <ul class="menu_drinks_food_items">
+        <li class="menu_drinks_food_item">
+          <h3 class="menu_drinks_food_item_header">Coffee</h3> <!--блок с coffee -->
+          <ul class="menu_items_list">
+            <li class="menu_item">
+              <span class="span">Espresso</span>
+              <span class="span">7 GEL</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Americano</span>
+              <span class="span">8 GEL</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Latte</span>
+              <span class="span">9.5 GEL</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Cappucino</span>
+              <span class="span">9.5 | 12 GEL</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Flat - white</span>
+              <span class="span">9.5 GEL</span>
+            </li>
+          </ul>
+        </li>
+        <li class="menu_drinks_food_item">
+          <h3 class="menu_drinks_food_item_header">Tea</h3> <!--блок с tea -->
+          <ul class="menu_items_list">
+            <li class="menu_item">
+              <span class="span">Black tea</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Green tea</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Ginger tea</span>
+              <span class="span">12 GEL</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Berries tea</span>
+            </li>
+            <li class="menu_item">
+              <span class="span">Christmas tea</span>
+            </li>
+          </ul>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Desserts</h3> <!--блок с desserts -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class="span">Classical cocoa</span>
+                <span class="span">14 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Mint cocoa</span>
+                <span class="span">14 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Hot chocolate</span>
+                <span class="span">13 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Raf vanilla</span>
+                <span class="span">9.5 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Spicy orange raf</span>
+                <span class="span">14 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Spicy pumpkin latte</span>
+                <span class="span">14 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Mokko</span>
+                <span class="span">14 GEL</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Cold drinks</h3> <!--блок с cold drinks -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class="span">Iced americano</span>
+                <span class="span">10 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Orange | Grapefruit bumble</span>
+                <span class="span">12 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Iced latte (vanilla | chocolate)</span>
+                <span class="span">12 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Glyasse</span>
+                <span class="span">12 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Hommemade lemonade (lime-mint | cherry-pineapple)</span>
+                <span class="span">7.5 GEL for 1 glass</span>
+                <span class="span">12 GEL for 1 liter</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Milkshake</h3> <!--блок с milkshake -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class="span">Vanilla</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Strawberry-banana</span>
+                <span class="span">12 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Chocolate</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Smoothie</h3> <!--блок с smoothie -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class="span">Strawberry-banana</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Apple-oatmeal</span>
+                <span class="span">17.5 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class="span">Green spinach</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Alcohol</h3> <!--блок с alcohol -->
+            <ul class="menu_items_list">
+              <li>
+                <h4 class="menu_item_subtitle">Hot alcohol</h4>
+                <ul class="menu_item_list">
+                  <li class="menu_item">
+                    <span class="span">Irish coffee</span>
+                    <span class="span">15 GEL</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Hot caramel rum</span>
+                    <span class="span">16 GEL</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Mulled vine</span>
+                    <span class="span">10 GEL</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4 class="menu_item_subtitle">Coctails</h4>
+                <ul class="menu_item_list">
+                  <li class="menu_item">
+                    <span class="span">Tom Collins</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Cuba libre</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Irish martini</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Linchburg lemonade</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Whiskey sour</span>
+                    <span class="span">16 GEL</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Apple whiskey</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Martini tonik</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Ramos gin fizz</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Icecream rum</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4 class="menu_item_subtitle">Alcohol 50ml</h4>
+                <ul class="menu_item_list">
+                  <li class="menu_item">
+                    <span class="span">Georgian gin</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Bushmills whiskey</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Rum Bacardi</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Whiskey Aber Falls</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Irish whiskey Samuel Gelstons</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Caribbean rum Old captain</span>
+                    <span class="span">10 GEL</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Scotch whiskey Sir Edwards</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Bourbon whiskey Jean Beam</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Whiskey Jack Daniels</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Rum Stroh</span>
+                  </li>
+                  <li class="menu_item">
+                    <span class="span">Martini Bianko</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4 class="menu_item_subtitle">Vine</h4>
+                <ul class="menu_item_list">
+                  <li class="menu_item">
+                    <span class="span">Vine</span>
+                    <span class="span">12 GEL</span>
+                  </li>
+                </ul>
+              </li>
+          </div>
+        </li>
+      </ul>
+    </div> <!--drinks-->
+    <div class="wrapperMy">
+      <div class="menu_article food"> <!--блок с едой -->
+        <h3 class="header">Food</h3>
       </div>
     </div>
-
-    <div class="menu_article food"> <!--блок с едой -->
-      <h3 class="menu_article_header">Food</h3>
-      <div class="menu_drinks_food hidden">
-        <ul class="menu_drinks_food_items">
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Waffles</h3> <!--блок с waffles -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Spinach waffles with mozzarella and salad</h4>
-                  <span class="menu_item_price">16 | 20 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Beet waffles with pate balls</h4>
-                  <span class="menu_item_price">16 | 20 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Belgian waffles with chocolate and banana </h4>
-                  <span class="menu_item_price">18 | 10 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Croissants</h3> <!--блок с croissants -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Classic croissant</h4>
-                  <span class="menu_item_price">4 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Croissant with chocolate</h4>
-                  <span class="menu_item_price">8 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Croissant with bacon</h4>
-                  <span class="menu_item_price">17 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Croissant with salmon</h4>
-                  <span class="menu_item_price">19 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Syrniki with sour cream</h3> <!--блок с syrniki -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">+ honey | jam | chocolate</h4>
-                  <span class="menu_item_price">14 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Fondue</h3> <!--блок с fondue -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Chocolate fondue with seasonal fruits</h4>
-                  <span class="menu_item_price">17 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Cheese fondue</h4>
-                  <span class="menu_item_price">17 GEL</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu_drinks_food_item">
-            <div>
-              <h3 class="menu_drinks_food_item_header">Handmade chocolate</h3> <!--блок с chocolate -->
-              <ul class="menu_items_list">
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Assorted mediants</h4>
-                  <span class="menu_item_price">3.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Assorted truffle</h4>
-                  <span class="menu_item_price">3.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Orange caramelized in chocolate</h4>
-                  <span class="menu_item_price">4.5 GEL</span>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Gift assortie of handmade chocolates</h4>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Sweet pastry</h4>
-                </li>
-                <li class="menu_item">
-                  <h4 class="menu_item_header">Cookies</h4>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-
+    <div class="menu_drinks_food hidden">
+      <ul class="menu_drinks_food_items">
+        <li class="menu_drinks_food_item">
+            <h3 class="menu_drinks_food_item_header">Waffles</h3> <!--блок с waffles -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class = "span">Spinach waffles <br>with mozzarella and salad</span>
+                <span class="span">16 | 20 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Beet waffles <br>with pate balls</span>
+                <span class="span">16 | 20 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Belgian waffles <br>with chocolate and banana</span>
+                <span class="span">10 | 18 GEL</span>
+              </li>
+            </ul>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Croissants</h3> <!--блок с croissants -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class = "span">Classic</span>
+                <span class="span">4 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Chocolate</span>
+                <span class="span">8 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">With bacon</span>
+                <span class="span">17 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">With salmon</span>
+                <span class="span">19 GEL</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Syrniki with sour cream</h3> <!--блок с syrniki -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class = "span">+ honey | jam | chocolate</span>
+                <span class="span">14 GEL</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Fondue</h3> <!--блок с fondue -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class = "span">Chocolate with seasonal fruits</span>
+                <span class="span price">17 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Cheese with cracker and tomatoes</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu_drinks_food_item">
+          <div>
+            <h3 class="menu_drinks_food_item_header">Handmade chocolate</h3> <!--блок с chocolate -->
+            <ul class="menu_items_list">
+              <li class="menu_item">
+                <span class = "span">Assorted mediants</span>
+                <span class="span">3.5 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Assorted truffle</span>
+                <span class="span">3.5 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Orange caramelized in chocolate</span>
+                <span class="span">4.5 GEL</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Gift assortie of handmade chocolates</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Sweet pastry in assortment</span>
+              </li>
+              <li class="menu_item">
+                <span class = "span">Cookies in assortment</span>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </div>
   </main>
   <footer class=" content">
     <div class="footer">
       <h2 class="article_header">About us</h2>
-      <div class="map">
+      
+      <!-- gallery -->
+      <div class="gallery">
 
+        <div class="slider">
+          <div class="slider_item">
+            <img src="img/1. Черный кот с рыбкой.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/10. Цветы.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/2. Хаски.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/5. Белый тигренок.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/6. Жираф.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/9. Пустыня.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/5. Белый тигренок.jpg" alt="" class = "img">
+          </div>
+          <div class="slider_item">
+            <img src="img/10. Цветы.jpg" alt="" class = "img">
+          </div>
+        </div>
+
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- slick -->
+        <script src="js/slick.min.js"></script>
+      </div>
+      
+      <div class="map">
       </div>
       <div class="info">
         <span class="open_hours">Open hours: 10:00 - 22:00</span>
@@ -365,6 +433,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

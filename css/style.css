@@ -1,5 +1,13 @@
 body {
   color: #421801;
+background-color: 90a88d;
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    list-style: none;
+  }
 }
 
 .header_logo {
@@ -14,10 +22,7 @@ body {
   position: relative;
   padding: 0px 10px;
 }
-.menu {
-    margin: 0 auto;
-  position: relative;
-}
+
 .article_header {
   text-align: center;
 }
@@ -34,13 +39,17 @@ body {
 
 .menu_article {
   text-align: center;
-  display: block;
   height: 100px;
   background-color: violet;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.click {
+  background-color: green;
+}
+
 .drinks {
 }
 .menu_article_header {
@@ -56,11 +65,15 @@ body {
 .menu_items_list {
 }
 .menu_item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  :first-child {
+    font-weight: 600;
+  }
+
 }
-.menu_item_header {
-}
-.menu_item_price {
-}
+
 .food {
 }
 .footer {
@@ -86,3 +99,27 @@ body {
   display: none;
 }
 
+.wrapperMy {
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-top: 10px solid white;
+}
+
+.menu_item_subtitle {
+  font-style: italic;
+}
+
+.menu_item_list {
+  padding-left: 15px;
+}
+
+.price {
+  padding-top: 17px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+}
