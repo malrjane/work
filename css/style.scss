@@ -1,0 +1,182 @@
+body {
+  color: #421801;
+  background-color: #daf5d0;
+  padding: 0;
+  margin: 0;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.header_logo {
+  padding: 15px 130px;
+}
+.header_logo_img {
+  max-width: 100%;
+
+}
+.content {  
+  margin: 0 auto;
+  position: relative;
+}
+
+.article_header {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.article_header::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 114px;
+  height: 3px;
+  border-bottom: 3px solid #421801;
+}
+
+.menu_article {
+  text-align: center;
+  height: 100px;
+  background-color: rgb(183, 219, 175);
+  border: 2px solid #421801;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 25px 10px;
+  font-size: 20px;
+}
+
+.click {
+  background-color: #947c70;
+  border-radius: 0;
+  margin: 0;
+  border: 0;
+}
+
+.drinks {
+}
+.menu_article_header {
+}
+.menu_drinks_food {
+}
+.menu_drinks_food_items {
+  transition: 1000ms;
+  padding: 5px 15px;
+}
+.menu_drinks_food_item {
+}
+.menu_drinks_food_item_header {
+  font-size: 23px;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+.menu_items_list {
+  padding: 0 15px;
+}
+.menu_item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 21px;
+  margin-bottom: 20px;
+  :first-child {
+    font-weight: 600;
+  }
+  .span {
+    font-size: 19px;
+    margin-left: 19px;
+  }
+}
+
+.food {
+}
+.footer {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.map {
+  margin-top: 25px;
+  width: 100%;
+  height: 130px;
+}
+.info {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.open_hours {
+}
+.phone {
+}
+.social {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  margin: 25px 15px 0;
+}
+.inst {
+}
+.facebook {
+}
+
+.hidden {
+  display: none; 
+}
+
+
+.active {
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateY(-1%);}
+  100% {transform: translateY(0);}
+}
+
+.wrapperMy {
+  // padding-top: 20px;
+  position: sticky;
+  top: 0;
+  background-color: #daf5d0;
+  z-index: 5;
+}
+
+.menu_item_subtitle {
+  font-style: italic;
+  font-size: 22px;
+  padding-left: 15px;
+  margin: 15px 0;
+}
+
+.menu_item_list {
+  padding-left: 15px;
+}
+
+.price {
+  padding-top: 17px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+}
+
+.slider {
+  padding: 0 70px;
+}
