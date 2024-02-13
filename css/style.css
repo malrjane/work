@@ -38,9 +38,9 @@ body h1, body h2, body h3, body h4, body h5 {
 
 .article_header::after {
   content: "";
-  position: absolute;
-  top: 30px;
-  left: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 114px;
   height: 3px;
   border-bottom: 3px solid #421801;
