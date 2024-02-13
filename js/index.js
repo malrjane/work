@@ -22,7 +22,7 @@ $(document).ready(() => {
     dots: true,
     adaptiveHeight: true,
     slidesToShow: 2,
-    clidesToScroll: 1,
+    clidesToScroll: 3,
     speed: 1000,
     easing: 'linear',
     infinite: true,
@@ -34,7 +34,7 @@ $(document).ready(() => {
     pauseOnDotsHover: true,
     draggable: true,
     swipe: true,
-    touchThreshold: 2,
+    touchThreshold: 10,
     touchMove: true,
 
   });

@@ -60,12 +60,12 @@
 
 .slider .slick-arrow.slick-prev{
   left: 0;
-  background: url('/arrow-prev-small-svgrepo-com.svg') 0 0 / 100% no-repeat;
+  background: url('arrow-prev-small-svgrepo-com.svg') 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next{
   right: 0;
-  background: url('/arrow-next-small-svgrepo-com.svg') 0 0 / 100% no-repeat;
+  background: url('arrow-next-small-svgrepo-com.svg') 0 0 / 100% no-repeat;
 
 }
 .slider__item {}
