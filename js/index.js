@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll('.wrapperMy');
 const click = document.querySelectorAll('.menu_article');
 
-let arr = document.querySelectorAll('.menu_drinks_food');
+const arr = document.querySelectorAll('.menu_drinks_food');
 Array.from(buttons).forEach((btn) => {
   btn.addEventListener('click', (event) => {
     event.preventDefault();
@@ -13,12 +13,10 @@ Array.from(buttons).forEach((btn) => {
       btn.nextElementSibling.classList.add('hidden');
     }
     btn.firstElementChild.classList.toggle('click');
-  })
+  });
 });
 
-
-
-$(document).ready(function () {
+$(document).ready(() => {
   $('.slider').slick({
     arrows: true,
     dots: true,
