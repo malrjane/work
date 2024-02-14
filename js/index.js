@@ -28,7 +28,7 @@ $(document).ready(() => {
     infinite: true,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
     pauseOnFocus: true,
     pauseOnHover: true,
     pauseOnDotsHover: true,
